@@ -36,7 +36,8 @@ sudo gcc enable-ir-emitter.c -o enable-ir-emitter && \
      ./enable-ir-emitter && \
      sudo cp enable-ir-emitter.service /etc/systemd/system/ && \
      sudo systemctl enable enable-ir-emitter && \
-     sudo systemctl start enable-ir-emitter
+     sudo systemctl start enable-ir-emitter && \
+     sudo rm enable-ir-emitter.c enable-ir-emitter.service 
 
 # Gotta reboot now:
 sudo apt update -qq && sudo apt upgrade -y && sudo apt autoremove -y
