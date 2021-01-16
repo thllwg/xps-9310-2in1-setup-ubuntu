@@ -31,6 +31,7 @@ sudo apt update -qq
 sudo apt install oem-somerville-melisa-meta oem-somerville-meta tlp-config -y
 
 # Fix IR emitter problem
+sudo apt install gcc -y
 wget https://raw.githubusercontent.com/thllwg/linux-enable-ir-emitter/master/enable-ir-emitter.c && wget https://raw.githubusercontent.com/thllwg/linux-enable-ir-emitter/master/enable-ir-emitter.service 
 sudo gcc enable-ir-emitter.c -o enable-ir-emitter && \
      ./enable-ir-emitter && \
