@@ -23,8 +23,5 @@ For the IR emitter problem, the script in this repository installs a solution ad
 
 Furthermore, drivers from the [Dell focal repository](http://dell.archive.canonical.com/dists/focal-somerville-melisa/) are installed to optimize battery life under linux.
 
-## No auto screen rotation in 20.10
-
-Due to a [bug](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3255#note_992094) in the gnome-shell version 3.38.1 auto screen rotation is currently not available in ubuntu 20.10. The bug is fixed in 3.38.2, you can check as to whether is has reached ubuntu's stable repository [here](https://launchpad.net/ubuntu/+source/gnome-shell). Ubuntu 20.04 uses gnome-shell 3.36, where auto screen rotation works just fine.
 
 
